@@ -8,7 +8,7 @@ module Fluent
     class RedisListPollerInput < Input
       include Fluent::PluginMixin::Redis
 
-      Plugin.register_input('redis-list-source', self)
+      Plugin.register_input('redis_list_source', self)
       helpers :storage
       helpers :timer
 
