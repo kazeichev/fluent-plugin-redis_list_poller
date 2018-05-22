@@ -1,15 +1,15 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = 'redis-to-fluentd-listener'
+  spec.name          = 'redis-list-source-fluentd'
   spec.version       = '1.0'
   spec.authors       = ['Nikita Kazeichev']
   spec.email         = ['kazeichev@yandex.ru']
 
   spec.summary       = 'Plugin wich help you to transfer data from redis to fluentd'
-  spec.description   = spec.summary
+  spec.description   = 'This gem will help you to connect redis and fluentd. With it you\'ll be able to get your data from redis with fluentd.'
   spec.homepage      = 'https://github.com/kazeichev/fluent-plugin-redis_list_poller'
-  spec.license       = 'apache2'
+  spec.license       = '0BSD'
 
   spec.files         = `git ls-files -z`
                        .split("\x0")

@@ -9,7 +9,7 @@ This gem will help you to connect redis and fluentd. With it you'll be able to g
 ## Installation
 
 ```bash
-gem install fluent-plugin-redis_list_poller
+gem install redis-list-source-fluentd
 ```
 
 ## Configuration Options
