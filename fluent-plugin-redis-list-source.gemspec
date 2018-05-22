@@ -1,7 +1,7 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = 'redis-list-source-fluentd'
+  spec.name          = 'fluent-plugin-redis-list-source'
   spec.version       = '1.0'
   spec.authors       = ['Nikita Kazeichev']
   spec.email         = ['kazeichev@yandex.ru']
