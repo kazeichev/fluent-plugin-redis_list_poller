@@ -17,7 +17,7 @@ module Fluent
           # - key: redis key of type `list` to fetch messages from
           # - command: redis command to execute when fetching messages
           # - batch_size: if greater than 0, fetch messages in batches
-          config_param :key,        :string,  :default => nil
+          config_param :key, :string, :default => nil
 
           # worker parameters
           # - poll_inteval: interval between message polling actions
@@ -47,7 +47,9 @@ module Fluent
         @redis  = ::Redis.new(
           :host => @host,
           :port => @port,
+	  :db   => @db,
           :driver => @driver,
+	  :timeout => @timeout,
           :password => @password,
           :thread_safe => true
         )

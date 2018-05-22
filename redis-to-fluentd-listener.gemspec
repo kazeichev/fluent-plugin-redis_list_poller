@@ -1,15 +1,14 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fluent-plugin-redis_list_poller'
-  spec.version       = '1.1.0'
-  spec.authors       = ['Jonathan Serafini']
-  spec.email         = ['jonathan@serafini.ca']
+  spec.name          = 'redis-to-fluentd-listener'
+  spec.version       = '1.0'
+  spec.authors       = ['Nikita Kazeichev']
+  spec.email         = ['kazeichev@yandex.ru']
 
-  spec.summary       = 'A fluentd redis input plugin' \
-                       ' supporting batch operations'
+  spec.summary       = 'Plugin wich help you to transfer data from redis to fluentd'
   spec.description   = spec.summary
-  spec.homepage      = 'https://github.com/JonathanSerafini/fluent-plugin-redis_list_poller'
+  spec.homepage      = 'https://github.com/kazeichev/fluent-plugin-redis_list_poller'
   spec.license       = 'apache2'
 
   spec.files         = `git ls-files -z`
