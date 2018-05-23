@@ -23,17 +23,6 @@ gem install redis-list-source-fluentd
   db          0
   timeout     5.0
   driver      ruby
-
-  key         redis_list_item
-  command     lpop
-  batch_size  100
-
-  tag         redis.data
-
-  poll_interval      0.01
-  sleep_interval     5
-  retry_interval    5
-
   <parse>
     @type json
   </parse>
