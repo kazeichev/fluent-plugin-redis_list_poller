@@ -16,7 +16,7 @@ gem install fluent-plugin-redis-list-source -v 1.3
 
 ```
 <source>
-  @type       redis_listener
+  @type       redis_list_source
   host        127.0.0.1
   port        6379
   password    nil
