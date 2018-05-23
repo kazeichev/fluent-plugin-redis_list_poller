@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'fluent-plugin-redis-list-source'
-  spec.version       = '1.2'
+  spec.version       = '1.3'
   spec.authors       = ['Nikita Kazeichev']
   spec.email         = ['kazeichev@yandex.ru']
 
